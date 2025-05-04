@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Archivo de manifiesto de Android que define la configuración básica de la aplicación -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Configuración principal de la aplicación -->
+    <!-- Permite respaldo automático de datos de la aplicación -->
+    <!-- Define reglas para extracción de datos -->
+    <!-- Define reglas para respaldo completo -->
+    <!-- Ícono de la aplicación -->
+    <!-- Nombre de la aplicación -->
+    <!-- Ícono redondeado de la aplicación -->
+    <!-- Soporte para idiomas que se escriben de derecha a izquierda -->
+    <!-- Tema visual de la aplicación -->
+    <!-- Versión objetivo de la API de Android -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConsultasSQLite"
+        tools:targetApi="31">
+        
+        <!-- Actividad principal de la aplicación -->
+        <!-- Nombre de la clase de la actividad -->
+        <!-- Permite que la actividad sea accesible desde otras aplicaciones -->
+        <!-- Filtro de intención para definir cómo se puede iniciar la actividad -->
+        <!-- Indica que esta es la actividad principal -->
+        <!-- Indica que esta actividad debe aparecer en el launcher -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConsultasSQLite</string>
+    <string name="consultas_sqlite">CONSULTAS SQLITE</string>
+    <string name="saludar">Saludar</string>
+    <string name="guardar_usuario">Guardar Usuario</string>
+    <string name="edad">Edad</string>
+    <string name="nombre">Nombre</string>
+</resources>
