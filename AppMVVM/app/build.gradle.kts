@@ -8,11 +8,11 @@ plugins {
 android {
     // Configuración del namespace y versión del SDK
     namespace = "com.kevinfernandoriverahoyos.appmvvm"  // Namespace de la aplicación
-    compileSdk = 34                                      // Versión del SDK para compilar
+    compileSdk = 35                                   // Versión del SDK para compilar
 
     // Configuración por defecto de la aplicación
     defaultConfig {
-        minSdk = 24                                             // Versión mínima de Android soportada
+        minSdk = 34                                            // Versión mínima de Android soportada
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"  // Runner para pruebas
         consumerProguardFiles("consumer-rules.pro")
     }
